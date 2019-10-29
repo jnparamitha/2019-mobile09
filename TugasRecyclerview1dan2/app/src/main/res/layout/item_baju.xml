@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00DBD6C4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namaBj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="@string/namaBj"
+            android:textColor="#0D0D0F"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imageBj"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"></ImageView>
+
+        <TextView
+            android:id="@+id/warnaBj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/warnaBj"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/ukuranBj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/ukuranBj"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+</LinearLayout>
